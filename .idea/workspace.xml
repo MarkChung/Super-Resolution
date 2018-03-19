@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f4e36f7-486c-4ce1-bd0f-b39f56fe5a3e" name="Default" comment="" />
+    <list default="true" id="5f4e36f7-486c-4ce1-bd0f-b39f56fe5a3e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iteratedbackprojection.py" afterPath="$PROJECT_DIR$/iteratedbackprojection.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +15,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/IBP$iteratedbackprojection.coverage" NAME="iteratedbackprojection Coverage Results" MODIFIED="1521001365657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/IBP$test.coverage" NAME="test Coverage Results" MODIFIED="1520600980453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../video_python" />
-    <SUITE FILE_PATH="coverage/IBP$main.coverage" NAME="main Coverage Results" MODIFIED="1521204968870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IBP$main.coverage" NAME="main Coverage Results" MODIFIED="1521468257515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/IBP$imagepretreatment.coverage" NAME="imagepretreatment Coverage Results" MODIFIED="1521018234448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -24,8 +27,8 @@
       <file leaf-file-name="iteratedbackprojection.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iteratedbackprojection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="63" column="6" lean-forward="false" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+            <state relative-caret-position="509">
+              <caret line="129" column="49" lean-forward="false" selection-start-line="129" selection-start-column="49" selection-end-line="129" selection-end-column="49" />
               <folding>
                 <element signature="e#21#31#0" expanded="true" />
                 <element signature="e#145#187#0" expanded="false" />
@@ -33,6 +36,8 @@
                 <element signature="e#597#895#0" expanded="false" />
                 <element signature="e#930#1058#0" expanded="false" />
                 <element signature="e#1093#1221#0" expanded="false" />
+                <element signature="e#3635#3797#0" expanded="false" />
+                <element signature="e#3888#4055#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -64,6 +69,9 @@
       <find>256</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -85,6 +93,7 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -445,11 +454,11 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20958512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32048193" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2987952" sideWeight="0.50572246" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2987952" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2987952" sideWeight="0.49427754" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -514,6 +523,8 @@
             <element signature="e#597#895#0" expanded="false" />
             <element signature="e#930#1058#0" expanded="false" />
             <element signature="e#1093#1221#0" expanded="false" />
+            <element signature="e#3635#3797#0" expanded="false" />
+            <element signature="e#3888#4055#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -529,6 +540,8 @@
             <element signature="e#597#895#0" expanded="false" />
             <element signature="e#930#1058#0" expanded="false" />
             <element signature="e#1093#1221#0" expanded="false" />
+            <element signature="e#3635#3797#0" expanded="false" />
+            <element signature="e#3888#4055#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -544,6 +557,8 @@
             <element signature="e#597#895#0" expanded="false" />
             <element signature="e#930#1058#0" expanded="false" />
             <element signature="e#1093#1221#0" expanded="false" />
+            <element signature="e#3635#3797#0" expanded="false" />
+            <element signature="e#3888#4055#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -559,6 +574,8 @@
             <element signature="e#597#895#0" expanded="false" />
             <element signature="e#930#1058#0" expanded="false" />
             <element signature="e#1093#1221#0" expanded="false" />
+            <element signature="e#3635#3797#0" expanded="false" />
+            <element signature="e#3888#4055#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -574,6 +591,8 @@
             <element signature="e#597#895#0" expanded="false" />
             <element signature="e#930#1058#0" expanded="false" />
             <element signature="e#1093#1221#0" expanded="false" />
+            <element signature="e#3635#3797#0" expanded="false" />
+            <element signature="e#3888#4055#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -589,6 +608,8 @@
             <element signature="e#597#895#0" expanded="false" />
             <element signature="e#930#1058#0" expanded="false" />
             <element signature="e#1093#1221#0" expanded="false" />
+            <element signature="e#3635#3797#0" expanded="false" />
+            <element signature="e#3888#4055#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -604,6 +625,8 @@
             <element signature="e#597#895#0" expanded="false" />
             <element signature="e#930#1058#0" expanded="false" />
             <element signature="e#1093#1221#0" expanded="false" />
+            <element signature="e#3635#3797#0" expanded="false" />
+            <element signature="e#3888#4055#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -646,8 +669,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iteratedbackprojection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="63" column="6" lean-forward="false" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+        <state relative-caret-position="509">
+          <caret line="129" column="49" lean-forward="false" selection-start-line="129" selection-start-column="49" selection-end-line="129" selection-end-column="49" />
           <folding>
             <element signature="e#21#31#0" expanded="true" />
             <element signature="e#145#187#0" expanded="false" />
@@ -655,6 +678,8 @@
             <element signature="e#597#895#0" expanded="false" />
             <element signature="e#930#1058#0" expanded="false" />
             <element signature="e#1093#1221#0" expanded="false" />
+            <element signature="e#3635#3797#0" expanded="false" />
+            <element signature="e#3888#4055#0" expanded="false" />
           </folding>
         </state>
       </provider>

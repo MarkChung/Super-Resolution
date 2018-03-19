@@ -72,7 +72,7 @@ def IBP(factor):
 
     # 初始化
     lamda = 0.01  # 定义迭代反投影算法的步长
-    max_iter = 100  # 迭代次数
+    max_iter = 1000  # 迭代次数
     iter = 1  # 当前迭代次数
 
     # 从估计高分辨率图像开始，用第一幅低分辨率图像的没有采样过的版本作为初始的估计
@@ -93,11 +93,11 @@ def IBP(factor):
             tempimage = generateimage('/Users/chosenone/Desktop/image' + str(i + 1) + '.tif')
             tempimage = selectimage(tempimage, 0)
 
-            # circshift()
+            # circshift() 做运动估计
             temp = roll(X, int(-round(factor * delta_est[i, 0])), 0)
             temp = roll(temp, int(-round(factor * delta_est[i, 1])), 1)
 
-            # imrotate()
+            # imrotate() 做图像旋转
             # temp = transform.rotate(temp, phi_est(i))
 
             # imfilter() 存疑，可以有更好的方法
@@ -127,7 +127,7 @@ def IBP(factor):
         E[iter][0] = iter
         E[iter][1] = delta
         if iter > 3:
-            if abs(E[iter - 3 - 1, 1] - delta) < 1e-5:
+            if abs(E[iter - 4, 1] - delta) < 1e-5:
                 break
         X_prev = X
         iter = iter + 1
