@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f4e36f7-486c-4ce1-bd0f-b39f56fe5a3e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/estimation_shift.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imagepretreatment.py" afterPath="$PROJECT_DIR$/imagepretreatment.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iteratedbackprojection.py" afterPath="$PROJECT_DIR$/iteratedbackprojection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,7 +18,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/IBP$iteratedbackprojection.coverage" NAME="iteratedbackprojection Coverage Results" MODIFIED="1521001365657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/IBP$test.coverage" NAME="test Coverage Results" MODIFIED="1520600980453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../video_python" />
-    <SUITE FILE_PATH="coverage/IBP$main.coverage" NAME="main Coverage Results" MODIFIED="1521468257515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IBP$main.coverage" NAME="main Coverage Results" MODIFIED="1521707251031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/IBP$imagepretreatment.coverage" NAME="imagepretreatment Coverage Results" MODIFIED="1521018234448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -24,20 +27,15 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="iteratedbackprojection.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="iteratedbackprojection.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iteratedbackprojection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="129" column="49" lean-forward="false" selection-start-line="129" selection-start-column="49" selection-end-line="129" selection-end-column="49" />
+            <state relative-caret-position="847">
+              <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
               <folding>
-                <element signature="e#21#31#0" expanded="true" />
-                <element signature="e#145#187#0" expanded="false" />
-                <element signature="e#235#559#0" expanded="false" />
-                <element signature="e#597#895#0" expanded="false" />
-                <element signature="e#930#1058#0" expanded="false" />
-                <element signature="e#1093#1221#0" expanded="false" />
-                <element signature="e#3635#3797#0" expanded="false" />
-                <element signature="e#3888#4055#0" expanded="false" />
+                <element signature="e#21#52#0" expanded="true" />
+                <element signature="e#3846#4008#0" expanded="false" />
+                <element signature="e#4099#4266#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -46,11 +44,31 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="105">
+              <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="imagepretreatment.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imagepretreatment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#23#42#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="estimation_shift.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/estimation_shift.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,9 +95,10 @@
       <list>
         <option value="$PROJECT_DIR$/../video_python/test.py" />
         <option value="$PROJECT_DIR$/imagepretreat.py" />
+        <option value="$PROJECT_DIR$/estimation_shift.py" />
         <option value="$PROJECT_DIR$/imagepretreatment.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/iteratedbackprojection.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -109,6 +128,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -124,7 +144,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -132,6 +151,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="FullScreen" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.main">
     <configuration default="false" name="iteratedbackprojection" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -452,7 +476,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20958512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21244635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2987952" sideWeight="0.50572246" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -482,19 +506,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/imagepretreatment.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/iteratedbackprojection.py</url>
           <line>61</line>
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -507,24 +526,57 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="41" />
+      <option name="time" value="44" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/iteratedbackprojection.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="92" column="45" lean-forward="false" selection-start-line="92" selection-start-column="45" selection-end-line="92" selection-end-column="45" />
+          <folding>
+            <element signature="e#21#52#0" expanded="true" />
+            <element signature="e#3846#4008#0" expanded="false" />
+            <element signature="e#4099#4266#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagepretreatment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estimation_shift.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iteratedbackprojection.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
           <caret line="85" column="18" lean-forward="false" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
           <folding>
-            <element signature="e#21#31#0" expanded="true" />
-            <element signature="e#145#187#0" expanded="false" />
-            <element signature="e#235#559#0" expanded="false" />
-            <element signature="e#597#895#0" expanded="false" />
-            <element signature="e#930#1058#0" expanded="false" />
-            <element signature="e#1093#1221#0" expanded="false" />
-            <element signature="e#3635#3797#0" expanded="false" />
-            <element signature="e#3888#4055#0" expanded="false" />
+            <element signature="e#21#52#0" expanded="true" />
+            <element signature="e#3846#4008#0" expanded="false" />
+            <element signature="e#4099#4266#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -534,14 +586,9 @@
         <state relative-caret-position="360">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <element signature="e#21#31#0" expanded="true" />
-            <element signature="e#145#187#0" expanded="false" />
-            <element signature="e#235#559#0" expanded="false" />
-            <element signature="e#597#895#0" expanded="false" />
-            <element signature="e#930#1058#0" expanded="false" />
-            <element signature="e#1093#1221#0" expanded="false" />
-            <element signature="e#3635#3797#0" expanded="false" />
-            <element signature="e#3888#4055#0" expanded="false" />
+            <element signature="e#21#52#0" expanded="true" />
+            <element signature="e#3846#4008#0" expanded="false" />
+            <element signature="e#4099#4266#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -551,14 +598,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#21#31#0" expanded="true" />
-            <element signature="e#145#187#0" expanded="false" />
-            <element signature="e#235#559#0" expanded="false" />
-            <element signature="e#597#895#0" expanded="false" />
-            <element signature="e#930#1058#0" expanded="false" />
-            <element signature="e#1093#1221#0" expanded="false" />
-            <element signature="e#3635#3797#0" expanded="false" />
-            <element signature="e#3888#4055#0" expanded="false" />
+            <element signature="e#21#52#0" expanded="true" />
+            <element signature="e#3846#4008#0" expanded="false" />
+            <element signature="e#4099#4266#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -568,14 +610,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#21#31#0" expanded="true" />
-            <element signature="e#145#187#0" expanded="false" />
-            <element signature="e#235#559#0" expanded="false" />
-            <element signature="e#597#895#0" expanded="false" />
-            <element signature="e#930#1058#0" expanded="false" />
-            <element signature="e#1093#1221#0" expanded="false" />
-            <element signature="e#3635#3797#0" expanded="false" />
-            <element signature="e#3888#4055#0" expanded="false" />
+            <element signature="e#21#52#0" expanded="true" />
+            <element signature="e#3846#4008#0" expanded="false" />
+            <element signature="e#4099#4266#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -585,14 +622,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#21#31#0" expanded="true" />
-            <element signature="e#145#187#0" expanded="false" />
-            <element signature="e#235#559#0" expanded="false" />
-            <element signature="e#597#895#0" expanded="false" />
-            <element signature="e#930#1058#0" expanded="false" />
-            <element signature="e#1093#1221#0" expanded="false" />
-            <element signature="e#3635#3797#0" expanded="false" />
-            <element signature="e#3888#4055#0" expanded="false" />
+            <element signature="e#21#52#0" expanded="true" />
+            <element signature="e#3846#4008#0" expanded="false" />
+            <element signature="e#4099#4266#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -602,14 +634,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#21#31#0" expanded="true" />
-            <element signature="e#145#187#0" expanded="false" />
-            <element signature="e#235#559#0" expanded="false" />
-            <element signature="e#597#895#0" expanded="false" />
-            <element signature="e#930#1058#0" expanded="false" />
-            <element signature="e#1093#1221#0" expanded="false" />
-            <element signature="e#3635#3797#0" expanded="false" />
-            <element signature="e#3888#4055#0" expanded="false" />
+            <element signature="e#21#52#0" expanded="true" />
+            <element signature="e#3846#4008#0" expanded="false" />
+            <element signature="e#4099#4266#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -619,14 +646,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#21#31#0" expanded="true" />
-            <element signature="e#145#187#0" expanded="false" />
-            <element signature="e#235#559#0" expanded="false" />
-            <element signature="e#597#895#0" expanded="false" />
-            <element signature="e#930#1058#0" expanded="false" />
-            <element signature="e#1093#1221#0" expanded="false" />
-            <element signature="e#3635#3797#0" expanded="false" />
-            <element signature="e#3888#4055#0" expanded="false" />
+            <element signature="e#21#52#0" expanded="true" />
+            <element signature="e#3846#4008#0" expanded="false" />
+            <element signature="e#4099#4266#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -639,48 +661,50 @@
       </provider>
     </entry>
     <entry file="file:///usr/local/lib/python2.7/site-packages/numpy/matrixlib/defmatrix.py" />
-    <entry file="file://$PROJECT_DIR$/imagepretreat.py">
+    <entry file="file://$PROJECT_DIR$/imagepretreat.py" />
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/numpy/matrixlib/defmatrix.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="234">
+          <caret line="255" column="0" lean-forward="false" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imagepretreatment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="510">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#23#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iteratedbackprojection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="129" column="49" lean-forward="false" selection-start-line="129" selection-start-column="49" selection-end-line="129" selection-end-column="49" />
+        <state relative-caret-position="847">
+          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
           <folding>
-            <element signature="e#21#31#0" expanded="true" />
-            <element signature="e#145#187#0" expanded="false" />
-            <element signature="e#235#559#0" expanded="false" />
-            <element signature="e#597#895#0" expanded="false" />
-            <element signature="e#930#1058#0" expanded="false" />
-            <element signature="e#1093#1221#0" expanded="false" />
-            <element signature="e#3635#3797#0" expanded="false" />
-            <element signature="e#3888#4055#0" expanded="false" />
+            <element signature="e#21#52#0" expanded="true" />
+            <element signature="e#3846#4008#0" expanded="false" />
+            <element signature="e#4099#4266#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estimation_shift.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
