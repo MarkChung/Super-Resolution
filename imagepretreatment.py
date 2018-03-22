@@ -52,3 +52,10 @@ def getmin(img):
         if minnum > min(img[i]):
             minnum = min(img[i])
     return minnum
+
+# 图像的灰度化
+def rgb2gray(image):
+    img = generateimage(image)
+    img = selectimageline(img, 0)
+
+    return img

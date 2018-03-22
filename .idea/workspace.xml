@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f4e36f7-486c-4ce1-bd0f-b39f56fe5a3e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/estimation_shift.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estimation_shift.py" afterPath="$PROJECT_DIR$/estimation_shift.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imagepretreatment.py" afterPath="$PROJECT_DIR$/imagepretreatment.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iteratedbackprojection.py" afterPath="$PROJECT_DIR$/iteratedbackprojection.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
@@ -18,7 +17,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/IBP$iteratedbackprojection.coverage" NAME="iteratedbackprojection Coverage Results" MODIFIED="1521001365657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/IBP$test.coverage" NAME="test Coverage Results" MODIFIED="1520600980453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../video_python" />
-    <SUITE FILE_PATH="coverage/IBP$main.coverage" NAME="main Coverage Results" MODIFIED="1521707251031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IBP$main.coverage" NAME="main Coverage Results" MODIFIED="1521723557381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/IBP$imagepretreatment.coverage" NAME="imagepretreatment Coverage Results" MODIFIED="1521018234448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -30,12 +29,12 @@
       <file leaf-file-name="iteratedbackprojection.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iteratedbackprojection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="847">
-              <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+            <state relative-caret-position="-241">
+              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
                 <element signature="e#21#52#0" expanded="true" />
-                <element signature="e#3846#4008#0" expanded="false" />
-                <element signature="e#4099#4266#0" expanded="false" />
+                <element signature="e#2422#2584#0" expanded="false" />
+                <element signature="e#2675#2842#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -44,9 +43,11 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="360">
+              <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,8 +55,8 @@
       <file leaf-file-name="imagepretreatment.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imagepretreatment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="449">
+              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
                 <element signature="e#23#42#0" expanded="true" />
               </folding>
@@ -66,8 +67,8 @@
       <file leaf-file-name="estimation_shift.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/estimation_shift.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="464">
+              <caret line="48" column="20" lean-forward="false" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -95,10 +96,10 @@
       <list>
         <option value="$PROJECT_DIR$/../video_python/test.py" />
         <option value="$PROJECT_DIR$/imagepretreat.py" />
-        <option value="$PROJECT_DIR$/estimation_shift.py" />
         <option value="$PROJECT_DIR$/imagepretreatment.py" />
-        <option value="$PROJECT_DIR$/iteratedbackprojection.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/iteratedbackprojection.py" />
+        <option value="$PROJECT_DIR$/estimation_shift.py" />
       </list>
     </option>
   </component>
@@ -506,14 +507,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/iteratedbackprojection.py</url>
-          <line>61</line>
-          <option name="timeStamp" value="40" />
+          <url>file://$PROJECT_DIR$/estimation_shift.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="43" />
+          <line>19</line>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -526,7 +527,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="44" />
+      <option name="time" value="58" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -537,8 +538,8 @@
           <caret line="92" column="45" lean-forward="false" selection-start-line="92" selection-start-column="45" selection-end-line="92" selection-end-column="45" />
           <folding>
             <element signature="e#21#52#0" expanded="true" />
-            <element signature="e#3846#4008#0" expanded="false" />
-            <element signature="e#4099#4266#0" expanded="false" />
+            <element signature="e#2422#2584#0" expanded="false" />
+            <element signature="e#2675#2842#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -547,7 +548,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -575,8 +578,8 @@
           <caret line="85" column="18" lean-forward="false" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
           <folding>
             <element signature="e#21#52#0" expanded="true" />
-            <element signature="e#3846#4008#0" expanded="false" />
-            <element signature="e#4099#4266#0" expanded="false" />
+            <element signature="e#2422#2584#0" expanded="false" />
+            <element signature="e#2675#2842#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -587,8 +590,8 @@
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="e#21#52#0" expanded="true" />
-            <element signature="e#3846#4008#0" expanded="false" />
-            <element signature="e#4099#4266#0" expanded="false" />
+            <element signature="e#2422#2584#0" expanded="false" />
+            <element signature="e#2675#2842#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -599,8 +602,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#21#52#0" expanded="true" />
-            <element signature="e#3846#4008#0" expanded="false" />
-            <element signature="e#4099#4266#0" expanded="false" />
+            <element signature="e#2422#2584#0" expanded="false" />
+            <element signature="e#2675#2842#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -611,8 +614,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#21#52#0" expanded="true" />
-            <element signature="e#3846#4008#0" expanded="false" />
-            <element signature="e#4099#4266#0" expanded="false" />
+            <element signature="e#2422#2584#0" expanded="false" />
+            <element signature="e#2675#2842#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -623,8 +626,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#21#52#0" expanded="true" />
-            <element signature="e#3846#4008#0" expanded="false" />
-            <element signature="e#4099#4266#0" expanded="false" />
+            <element signature="e#2422#2584#0" expanded="false" />
+            <element signature="e#2675#2842#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -635,8 +638,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#21#52#0" expanded="true" />
-            <element signature="e#3846#4008#0" expanded="false" />
-            <element signature="e#4099#4266#0" expanded="false" />
+            <element signature="e#2422#2584#0" expanded="false" />
+            <element signature="e#2675#2842#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -647,8 +650,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#21#52#0" expanded="true" />
-            <element signature="e#3846#4008#0" expanded="false" />
-            <element signature="e#4099#4266#0" expanded="false" />
+            <element signature="e#2422#2584#0" expanded="false" />
+            <element signature="e#2675#2842#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -670,40 +673,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imagepretreatment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="e#23#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iteratedbackprojection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="847">
-          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+        <state relative-caret-position="-241">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
             <element signature="e#21#52#0" expanded="true" />
-            <element signature="e#3846#4008#0" expanded="false" />
-            <element signature="e#4099#4266#0" expanded="false" />
+            <element signature="e#2422#2584#0" expanded="false" />
+            <element signature="e#2675#2842#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="360">
+          <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagepretreatment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/estimation_shift.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="464">
+          <caret line="48" column="20" lean-forward="false" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
           <folding />
         </state>
       </provider>
