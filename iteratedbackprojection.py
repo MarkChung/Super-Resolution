@@ -4,6 +4,7 @@ import cv2
 from numpy import *
 import numpy as np
 from PIL import Image
+from skimage import transform
 
 # 迭代反投影算法(IBP)
 def IBP(images, delta_est, factor):
@@ -13,13 +14,20 @@ def IBP(images, delta_est, factor):
     img = images[0]
     img = generateimage(img)
 
+#    img1 = img
     img1 = selectimageline(img, 0)
     cb_temp = selectimageline(img, 1)
     cr_temp = selectimageline(img, 2)
-    im_color1 = nearestinset(cb_temp, factor)
-    im_color2 = nearestinset(cr_temp, factor)
+    # 图像最邻近插值
+    # im_color1 = nearestinsert(cb_temp, factor)
+    # im_color2 = nearestinsert(cr_temp, factor)
+    # imOrigBig = nearestinsert(img1, factor)
 
-    imOrigBig = nearestinset(img1, factor)  # 图像最邻近插值
+    # 双线性插值
+    im_color1 = doublelinearinsert(cb_temp, factor)
+    im_color2 = doublelinearinsert(cr_temp, factor)
+    imOrigBig = doublelinearinsert(img1, factor)
+
     # -- end of Movie Variables
 
     # 初始化
@@ -59,7 +67,8 @@ def IBP(images, delta_est, factor):
 
             temp = temp - tempimage
 
-            temp = nearestinset(temp, factor)
+            # temp = nearestinsert(temp, factor)
+            temp = doublelinearinsert(temp, factor)
 
             temp = cv2.filter2D(temp, -1, sharpen)
 
@@ -103,6 +112,14 @@ def IBP(images, delta_est, factor):
 
     result = Image.fromarray(temp_result, mode='YCbCr')
     result = result.convert('RGB')
+    temp_result = zeros((height, width, 3), 'uint8')
+    for i in range(height):
+        for j in range(width):
+            temp_result[i][j][0] = X[i][j]
+            temp_result[i][j][1] = im_color1[i][j]
+            temp_result[i][j][2] = im_color2[i][j]
+
+    # result = Image.fromarray(temp_result, mode='L')
 
     print ("the " + str(iter) + " accuracy is: " + str(1 - round(delta, 7)))
 
