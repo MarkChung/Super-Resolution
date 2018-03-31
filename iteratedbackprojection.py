@@ -19,14 +19,19 @@ def IBP(images, delta_est, factor):
     cb_temp = selectimageline(img, 1)
     cr_temp = selectimageline(img, 2)
     # 图像最邻近插值
-    # im_color1 = nearestinsert(cb_temp, factor)
-    # im_color2 = nearestinsert(cr_temp, factor)
-    # imOrigBig = nearestinsert(img1, factor)
+    im_color1 = nearestinsert(cb_temp, factor)
+    im_color2 = nearestinsert(cr_temp, factor)
+    imOrigBig = nearestinsert(img1, factor)
 
     # 双线性插值
-    im_color1 = doublelinearinsert(cb_temp, factor)
-    im_color2 = doublelinearinsert(cr_temp, factor)
-    imOrigBig = doublelinearinsert(img1, factor)
+    # im_color1 = doublelinearinsert(cb_temp, factor)
+    # im_color2 = doublelinearinsert(cr_temp, factor)
+    # imOrigBig = doublelinearinsert(img1, factor)
+
+    # 双三次插值
+    # im_color1 = double3insert(cb_temp, factor)
+    # im_color2 = double3insert(cr_temp, factor)
+    # imOrigBig = double3insert(img1, factor)
 
     # -- end of Movie Variables
 
@@ -67,8 +72,9 @@ def IBP(images, delta_est, factor):
 
             temp = temp - tempimage
 
-            # temp = nearestinsert(temp, factor)
-            temp = doublelinearinsert(temp, factor)
+            temp = nearestinsert(temp, factor)    # 最邻近插值
+            # temp = doublelinearinsert(temp, factor)   #双线性插值
+            # temp = double3insert(temp, factor)      #双三次插值
 
             temp = cv2.filter2D(temp, -1, sharpen)
 
@@ -112,12 +118,6 @@ def IBP(images, delta_est, factor):
 
     result = Image.fromarray(temp_result, mode='YCbCr')
     result = result.convert('RGB')
-    temp_result = zeros((height, width, 3), 'uint8')
-    for i in range(height):
-        for j in range(width):
-            temp_result[i][j][0] = X[i][j]
-            temp_result[i][j][1] = im_color1[i][j]
-            temp_result[i][j][2] = im_color2[i][j]
 
     # result = Image.fromarray(temp_result, mode='L')
 
