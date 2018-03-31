@@ -6,15 +6,15 @@ import numpy as np
 from PIL import Image
 from skimage import transform
 
+
 # 迭代反投影算法(IBP)
 def IBP(images, delta_est, factor):
-
     phi_est = matrix([[0], [0], [0], [0]])
 
     img = images[0]
     img = generateimage(img)
 
-#    img1 = img
+    # img1 = img
     img1 = selectimageline(img, 0)
     cb_temp = selectimageline(img, 1)
     cr_temp = selectimageline(img, 2)
@@ -73,10 +73,10 @@ def IBP(images, delta_est, factor):
             temp = temp - tempimage
 
             temp = nearestinsert(temp, factor)    # 最邻近插值
-            # temp = doublelinearinsert(temp, factor)   #双线性插值
+            # temp = doublelinearinsert(temp, factor)  # 双线性插值
             # temp = double3insert(temp, factor)      #双三次插值
 
-            temp = cv2.filter2D(temp, -1, sharpen)
+            # temp = cv2.filter2D(temp, -1, sharpen)
 
             # temp.rotate(-phi_est(i))
             # temp = transform.rotate(temp, -phi_est(i))

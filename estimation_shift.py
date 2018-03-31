@@ -43,7 +43,7 @@ def estimate_shift(images, n):
         M_A = np.column_stack((M_A, y))
         M_A = np.column_stack((M_A, np.ones((x.shape[0], 1))))
         r = M_A.I * v
-        temp = np.array(np.multiply(np.matrix(np.array([-r[1], -r[0]])) * 1.0 , sz) / 2 / np.pi)
+        temp = np.array(np.multiply(np.matrix(np.array([-r[1], -r[0]])) * 1.0, sz) / 2 / np.pi)
         delta_est[i] = temp[0]
 
     return delta_est
