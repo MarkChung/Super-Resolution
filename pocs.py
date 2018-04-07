@@ -1,6 +1,6 @@
-from imagepretreatment import *
-import cv2
-import numpy as np
-from PIL import Image
-
-def pocs(images, delta_est, factor):
+# -*- coding: utf-8 -*-
+# @Time    : 2018/4/2 10:14
+# @Author  : Jiahui Zhang
+# @Email   : zjiahui96@gmail.com
+# @File    : pocs.py
+# @Software: PyCharm

@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+# @Time    : 2018/3/29 15:42
+# @Author  : Jiahui Zhang
+# @Email   : zjiahui96@gmail.com
+# @File    : linear.py
+# @Software: PyCharm
+
 import numpy as np
 from PIL import Image
 

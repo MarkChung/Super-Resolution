@@ -1,4 +1,10 @@
-# -- coding:utf-8 --
+# -*- coding: utf-8 -*-
+# @Time    : 2018/3/19 10:32
+# @Author  : Jiahui Zhang
+# @Email   : zjiahui96@gmail.com
+# @File    : iteratedbackprojection.py
+# @Software: PyCharm
+
 from imagepretreatment import *
 import cv2
 from numpy import *

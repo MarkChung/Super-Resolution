@@ -1,4 +1,9 @@
-# -- coding: utf-8 --
+# -*- coding: utf-8 -*-
+# @Time    : 2018/3/25 12:33
+# @Author  : Jiahui Zhang
+# @Email   : zjiahui96@gmail.com
+# @File    : estimation_shift.py
+# @Software: PyCharm
 
 import numpy as np
 

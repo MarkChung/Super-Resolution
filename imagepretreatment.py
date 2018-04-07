@@ -1,4 +1,9 @@
-# -- coding: utf-8 --
+# -*- coding: utf-8 -*-
+# @Time    : 2018/3/22 21:15
+# @Author  : Jiahui Zhang
+# @Email   : zjiahui96@gmail.com
+# @File    : imagepretreatment.py
+# @Software: PyCharm
 
 from numpy import *
 import numpy as np

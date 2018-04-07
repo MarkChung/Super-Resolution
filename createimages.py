@@ -1,11 +1,17 @@
-# -- coding:utf-8 --
+# -*- coding: utf-8 -*-
+# @Time    : 2018/3/31 14:14
+# @Author  : Jiahui Zhang
+# @Email   : zjiahui96@gmail.com
+# @File    : createimages.py
+# @Software: PyCharm
+
 from PIL import Image
 import numpy as np
 
 
 def create_images(image, factor, imagenumber):
-    shift = [[0, 0], [0, 1], [1, 0], [1, 1]]  # 子像素位移量
-    image = image.convert('YCbCr')
+    shift = [[0, 0], [0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [1, 3],[2, 0], [2, 1], [2, 2], [2, 3], [3, 0], [3, 1], [3, 2], [3, 3]]  # 子像素位移量
+    # image = image.convert('YCbCr')
     img = np.array(image)
     img = img * 1.0
     size = img.shape
@@ -36,20 +42,16 @@ def create_images(image, factor, imagenumber):
             for m2 in range(width):
                 for n2 in range(factor * m2, factor * (m2 + 1) - 1):
                     for n1 in range(factor * m1, factor * (m1 + 1) - 1):
-                        sum = sum + img[n1 + x, n2 + y] * (1 - x1) * (1 - y1) + img[
+                        sum = sum + img[heightoverflow(n1 + x), widthoverflow(n2 + y)] * (1 - x1) * (1 - y1) + img[
                             heightoverflow(n1 + x + 1), widthoverflow(n2 + y + 1)] * x1 * y1 + \
-                              img[n1 + x, widthoverflow(n2 + y + 1)] * (1 - x1) * y1 + img[
-                                  heightoverflow(n1 + x + 1), n2 + y] * x1 * (1 - y1)
+                              img[heightoverflow(n1 + x), widthoverflow(n2 + y + 1)] * (1 - x1) * y1 + img[
+                                  heightoverflow(n1 + x + 1), widthoverflow(n2 + y)] * x1 * (1 - y1)
                 sum[0] = round(float(sum[0]) / factor / factor)
                 sum[1] = round(float(sum[1]) / factor / factor)
                 sum[2] = round(float(sum[2]) / factor / factor)
                 emptyimage[m1, m2] = sum
-        temp = Image.fromarray(emptyimage, mode='YCbCr')
-        temp = temp.convert('RGB')
+        temp = Image.fromarray(emptyimage, mode='RGB')
+        # temp = temp.convert('RGB')
         temp.save('/Users/chosenone/Desktop/made/img' + str(num + 1) + '.tif')
         result.append(temp)
     return result
-
-
-image = Image.open('/Users/chosenone/Desktop/img1.jpg')
-create_images(image, 2, 4)
