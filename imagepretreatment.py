@@ -9,17 +9,36 @@ from numpy import *
 import numpy as np
 import math
 import cv2
-
 from PIL import Image
 
 
-# 取出图像中的第 line 信道
+##########################
+# 取出图像中的第 line 信道 #
+##########################
 def selectimageline(img, line):
     result = img[:, :, line]
     return result
 
 
-# 图像最邻近插值法
+####################
+# 图像插值，空位补零 #
+####################
+def zoomzero(img, factor):
+    size = img.shape
+    height = size[0]
+    width = size[1]
+
+    emptyImage = np.zeros((factor * height, factor * width))
+
+    for i in range(height):
+        for j in range(width):
+            emptyImage[i * factor, j * factor] = img[i, j]
+    return emptyImage
+
+
+##################
+# 图像最邻近插值法 #
+##################
 def nearestinsert(img, factor):
     size = img.shape
     height = size[0]
@@ -35,7 +54,9 @@ def nearestinsert(img, factor):
     return emptyImage
 
 
-# 图像双线性插值法
+##################
+# 图像双线性插值法 #
+##################
 def doublelinearinsert(img, factor):
     size = img.shape
     height = size[0]
@@ -58,8 +79,9 @@ def doublelinearinsert(img, factor):
     return emptyImage
 
 
-# 图像双三次插值法
-
+##################
+# 图像双三次插值法 #
+##################
 def S(x):
     x = np.abs(x)
     if 0 <= x < 1:
@@ -120,7 +142,9 @@ def double3insert(img, factor):
     return emptyImage
 
 
-# 初始化图像
+#############
+# 初始化图像 #
+#############
 def generateimage(img):
     img = img.convert('YCbCr')
     temp = np.array(img)
@@ -133,7 +157,9 @@ def generateimage(img):
     return temp
 
 
-# 求二维数组里最大值
+####################
+# 求二维数组里最大值 #
+####################
 def getmax(img):
     maxnum = 0
     for i in range(img.shape[0]):
@@ -142,7 +168,9 @@ def getmax(img):
     return maxnum
 
 
-# 求二维数组里最小值
+####################
+# 求二维数组里最小值 #
+####################
 def getmin(img):
     minnum = 0
     for i in range(img.shape[0]):
@@ -151,7 +179,9 @@ def getmin(img):
     return minnum
 
 
-# 图像的灰度化
+###############
+# 图像的灰度化 #
+###############
 def rgb2gray(image):
     img = generateimage(image)
     img = selectimageline(img, 0)

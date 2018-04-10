@@ -8,7 +8,9 @@
 import numpy as np
 
 
-# 运动估计，计算序列LR图像与参考帧之间的移位
+########################################
+# 运动估计，计算序列LR图像与参考帧之间的移位 #
+########################################
 def estimate_shift(images, n):
     nr = len(images)
     delta_est = np.zeros((nr, 2))

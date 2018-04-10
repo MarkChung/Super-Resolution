@@ -10,10 +10,12 @@ import cv2
 from numpy import *
 import numpy as np
 from PIL import Image
-from skimage import transform
+import scipy.ndimage
 
 
-# 迭代反投影算法(IBP)
+#####################
+# 迭代反投影算法(IBP) #
+#####################
 def IBP(images, delta_est, factor):
     phi_est = matrix([[0], [0], [0], [0]])
 
@@ -25,19 +27,31 @@ def IBP(images, delta_est, factor):
     cb_temp = selectimageline(img, 1)
     cr_temp = selectimageline(img, 2)
     # 图像最邻近插值
-    im_color1 = nearestinsert(cb_temp, factor)
-    im_color2 = nearestinsert(cr_temp, factor)
-    imOrigBig = nearestinsert(img1, factor)
+    # im_color1 = nearestinsert(cb_temp, factor)
+    # im_color2 = nearestinsert(cr_temp, factor)
+    # imOrigBig = nearestinsert(img1, factor)
+    # python自带最邻近插值
+    # im_color1 = scipy.ndimage.zoom(cb_temp, factor, order=0)
+    # im_color2 = scipy.ndimage.zoom(cr_temp, factor, order=0)
+    # imOrigBig = scipy.ndimage.zoom(img1, factor, order=0)
 
     # 双线性插值
     # im_color1 = doublelinearinsert(cb_temp, factor)
     # im_color2 = doublelinearinsert(cr_temp, factor)
     # imOrigBig = doublelinearinsert(img1, factor)
+    # python自带双线性插值
+    im_color1 = scipy.ndimage.zoom(cb_temp, factor, order=1)
+    im_color2 = scipy.ndimage.zoom(cr_temp, factor, order=1)
+    imOrigBig = scipy.ndimage.zoom(img1, factor, order=1)
 
     # 双三次插值
     # im_color1 = double3insert(cb_temp, factor)
     # im_color2 = double3insert(cr_temp, factor)
     # imOrigBig = double3insert(img1, factor)
+    # python自带三次插值
+    # im_color1 = scipy.ndimage.zoom(cb_temp, factor, order=3)
+    # im_color2 = scipy.ndimage.zoom(cr_temp, factor, order=3)
+    # imOrigBig = scipy.ndimage.zoom(img1, factor, order=3)
 
     # -- end of Movie Variables
 
@@ -51,16 +65,18 @@ def IBP(images, delta_est, factor):
     X_prev = X
     E = zeros([1000, 2])
 
+    # blur = matrix([[115.0, 119.0, 120.0], [123.0, 124.0, 125.0], [126.0, 127.0, 150.0]])
     blur = matrix([[0.0, 1.0, 0.0], [1.0, 2.0, 1.0], [0.0, 1.0, 0.0]])
     blur = blur / sum(blur)
 
     sharpen = matrix([[0, -0.25, 0], [-0.25, 2, -0.25], [0, -0.25, 0]])
+    # sharpen = matrix([[1.0,1.0,1.0], [1.0,-8.0,1.0], [1.0,1.0,1.0]])
 
     # 主循环
     while iter < max_iter:
 
         G = zeros(X.shape)
-        for i in range(4):
+        for i in range(len(images)):
             tempimage = generateimage(images[i])
             tempimage = selectimageline(tempimage, 0)
 
@@ -78,11 +94,16 @@ def IBP(images, delta_est, factor):
 
             temp = temp - tempimage
 
-            temp = nearestinsert(temp, factor)    # 最邻近插值
-            # temp = doublelinearinsert(temp, factor)  # 双线性插值
-            # temp = double3insert(temp, factor)      #双三次插值
+            # temp = nearestinsert(temp, factor)    # 最邻近插值
+            # temp = scipy.ndimage.zoom(temp, factor, order=0)    #python最邻近插值
 
-            # temp = cv2.filter2D(temp, -1, sharpen)
+            # temp = doublelinearinsert(temp, factor)  # 双线性插值
+            temp = scipy.ndimage.zoom(temp, factor, order=1)  # python双线性插值
+
+            # temp = double3insert(temp, factor)      #双三次插值
+            # temp = scipy.ndimage.zoom(temp, factor, order=3)    #python三次插值
+
+            temp = cv2.filter2D(temp, -1, sharpen)
 
             # temp.rotate(-phi_est(i))
             # temp = transform.rotate(temp, -phi_est(i))
@@ -94,6 +115,7 @@ def IBP(images, delta_est, factor):
         X = X - lamda * G
         if getmin(X) < 0:
             X = X - getmin(X)
+            # if getmax(X) > 1:
             X = X / getmax(X)
 
         delta = linalg.norm(X_prev - X) / linalg.norm(X)

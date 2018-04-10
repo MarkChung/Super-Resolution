@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/IBP.iml" filepath="$PROJECT_DIR$/.idea/IBP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Super-Resolution.iml" filepath="$PROJECT_DIR$/.idea/Super-Resolution.iml" />
     </modules>
   </component>
 </project>
