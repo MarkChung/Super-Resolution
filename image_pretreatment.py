@@ -2,7 +2,7 @@
 # @Time    : 2018/3/22 21:15
 # @Author  : Jiahui Zhang
 # @Email   : zjiahui96@gmail.com
-# @File    : imagepretreatment.py
+# @File    : image_pretreatment.py
 # @Software: PyCharm
 
 from numpy import *

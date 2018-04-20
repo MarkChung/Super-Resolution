@@ -7,7 +7,7 @@
 
 import numpy as np
 from PIL import Image
-from imagepretreatment import *
+from image_pretreatment import *
 import scipy.ndimage
 import cv2
 
@@ -36,8 +36,10 @@ def pocs(images, delta_est, factor):
         tempimage = generateimage(images[i])
         tempimage = selectimageline(tempimage, 0)
         temp = zoomzero(tempimage, factor)
-        temp = roll(temp, int(round(factor * delta_est[i, 0])), 0)
+
         temp = roll(temp, int(round(factor * delta_est[i, 1])), 1)
+        temp = roll(temp, int(round(factor * delta_est[i, 0])), 0)
+
         coord = temp.nonzero()
         y[coord] = temp[coord]
 
@@ -56,8 +58,10 @@ def pocs(images, delta_est, factor):
             tempimage = generateimage(images[i])
             tempimage = selectimageline(tempimage, 0)
             temp = zoomzero(tempimage, factor)
-            temp = roll(temp, int(round(factor * delta_est[i, 0])), 0)
+
             temp = roll(temp, int(round(factor * delta_est[i, 1])), 1)
+            temp = roll(temp, int(round(factor * delta_est[i, 0])), 0)
+
             coord = temp.nonzero()
             y[coord] = temp[coord]
 

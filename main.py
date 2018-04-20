@@ -5,10 +5,10 @@
 # @File    : main.py
 # @Software: PyCharm
 
-from iteratedbackprojection import *
+from iterated_back_projection import *
 from pocs import *
 from estimation_shift import *
-from createimages import *
+from create_images import *
 import time
 
 
@@ -18,12 +18,12 @@ import time
 def selectImage(imageNumber):
     list = []
     # img1 = Image.open('image/image1.tif')
-    img1 = Image.open('/Users/chosenone/Desktop/made/manual/img1_1.tif')
+    img1 = Image.open('/Users/chosenone/Desktop/made/man_LR_1.tif')
     list.append(img1)
 
     for i in range(1, imageNumber):
         # tempImage = Image.open('image/image'+str(i+1)+'.tif')
-        tempImage = Image.open('/Users/chosenone/Desktop/made/manual/img1_' + str(i + 1) + '.tif')
+        tempImage = Image.open('/Users/chosenone/Desktop/made/man_LR_' + str(i + 1) + '.tif')
         if (img1.size == tempImage.size):
             list.append(tempImage)
         else:
@@ -37,16 +37,17 @@ if __name__ == '__main__':
     start = time.clock()
 
     # 构造LR图像
-    # sourceimage = Image.open('image/test/img1_1.tif')
+    # sourceimage = Image.open('/Users/chosenone/Desktop/zoom.tif')
     # Images = create_images(sourceimage, 2, 8)
 
-    Images = selectImage(4)  # 加载已有LR图像
+    Images = selectImage(18)  # 加载已有LR图像
+
     grayImages = []
     for i in range(len(Images)):
         grayImages.append(rgb2gray(Images[i]))
     delta_est = np.matrix(estimate_shift(grayImages, 15))
-    im_result = IBP(Images, delta_est, 2)
-    # im_result = pocs(Images, delta_est, 2)
+    # im_result = IBP(Images, delta_est, 2)
+    im_result = pocs(Images, delta_est, 2)
     im_result.save('/Users/chosenone/Desktop/result.tif')
 
     end = time.clock()

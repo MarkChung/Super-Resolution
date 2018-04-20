@@ -2,10 +2,10 @@
 # @Time    : 2018/3/19 10:32
 # @Author  : Jiahui Zhang
 # @Email   : zjiahui96@gmail.com
-# @File    : iteratedbackprojection.py
+# @File    : iterated_back_projection.py
 # @Software: PyCharm
 
-from imagepretreatment import *
+from image_pretreatment import *
 import cv2
 from numpy import *
 import numpy as np
