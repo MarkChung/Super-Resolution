@@ -13,7 +13,7 @@ from image_pretreatment import *
 #############################
 # 计算图像的峰值信噪比（PSNR） #
 #############################
-def PSNR(source, detect):
+def getPSNR(source, detect):
 
     source = source.convert('YCbCr')
     detect = detect.convert('YCbCr')
@@ -38,9 +38,4 @@ def PSNR(source, detect):
 
     psnr = 10 * math.log10((val ^ 2) / mse)
 
-    return psnr, mse
-
-img1 = Image.open('/Users/chosenone/Desktop/pocs-18frame.tif')
-img2 = Image.open('/Users/chosenone/Desktop/man.tif')
-
-print PSNR(img1, img2)
+    return psnr,mse

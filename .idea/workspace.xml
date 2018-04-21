@@ -2,67 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f4e36f7-486c-4ce1-bd0f-b39f56fe5a3e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/made/img1.tif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/made/img2.tif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/made/img3.tif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/made/img4.tif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/made/img5.tif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/made/img6.tif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/made/img7.tif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/made/img8.tif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/made/manual/img1_1.tif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/made/manual/img1_2.tif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/made/manual/img1_3.tif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/made/manual/img1_4.tif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi01.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi02.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi03.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi04.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi05.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi06.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi07.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi08.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi09.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi10.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi11.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi12.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi13.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi14.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi15.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi16.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi17.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi18.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi19.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi20.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi21.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi22.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi23.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi24.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi25.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi26.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi27.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi28.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi29.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi30.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi31.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi32.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi33.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi34.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi35.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi36.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi37.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi38.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi39.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi40.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/taxi/taxi41.pgm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/image_quality_assessment.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/createimages.py" afterPath="$PROJECT_DIR$/create_images.py" />
-      <change beforePath="$PROJECT_DIR$/image/test/Thumbs.db" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imagepretreatment.py" afterPath="$PROJECT_DIR$/image_pretreatment.py" />
-      <change beforePath="$PROJECT_DIR$/iteratedbackprojection.py" afterPath="$PROJECT_DIR$/iterated_back_projection.py" />
-      <change beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
-      <change beforePath="$PROJECT_DIR$/pocs.py" afterPath="$PROJECT_DIR$/pocs.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/Super-Resolution.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Super-Resolution.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_images.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_images.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image_quality_assessment.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_quality_assessment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -72,15 +17,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Super_Resolution$image_quality_assessment.coverage" NAME="image_quality_assessment Coverage Results" MODIFIED="1523607497348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/IBP$linear.coverage" NAME="linear Coverage Results" MODIFIED="1522313041480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/IBP$test.coverage" NAME="test Coverage Results" MODIFIED="1522246256787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Super_Resolution$main.coverage" NAME="main Coverage Results" MODIFIED="1524111818473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/IBP$treat.coverage" NAME="treat Coverage Results" MODIFIED="1522294477163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/image" />
-    <SUITE FILE_PATH="coverage/IBP$createimages.coverage" NAME="createimages Coverage Results" MODIFIED="1522503065120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/IBP$iteratedbackprojection.coverage" NAME="iteratedbackprojection Coverage Results" MODIFIED="1521001365657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/IBP$imagepretreatment.coverage" NAME="imagepretreatment Coverage Results" MODIFIED="1521018234448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IBP$treat.coverage" NAME="treat Coverage Results" MODIFIED="1522294477163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/image" />
     <SUITE FILE_PATH="coverage/IBP$main.coverage" NAME="main Coverage Results" MODIFIED="1523093180997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IBP$createimages.coverage" NAME="createimages Coverage Results" MODIFIED="1522503065120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Super_Resolution$image_quality_assessment.coverage" NAME="image_quality_assessment Coverage Results" MODIFIED="1524229890935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Super_Resolution$main.coverage" NAME="main Coverage Results" MODIFIED="1524294655517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IBP$linear.coverage" NAME="linear Coverage Results" MODIFIED="1522313041480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IBP$iteratedbackprojection.coverage" NAME="iteratedbackprojection Coverage Results" MODIFIED="1521001365657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -90,8 +35,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="141">
+              <caret line="40" column="70" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
               <folding>
                 <element signature="e#155#193#0" expanded="true" />
               </folding>
@@ -102,13 +47,10 @@
       <file leaf-file-name="create_images.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/create_images.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+            <state relative-caret-position="225">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding>
                 <element signature="e#164#185#0" expanded="true" />
-                <element signature="e#1698#1806#0" expanded="false" />
-                <element signature="e#1845#1955#0" expanded="false" />
-                <element signature="e#2000#3299#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -117,8 +59,8 @@
       <file leaf-file-name="iterated_back_projection.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iterated_back_projection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1605">
-              <caret line="107" column="38" lean-forward="false" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
+            <state relative-caret-position="493">
+              <caret line="107" column="38" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
               <folding>
                 <element signature="e#175#207#0" expanded="true" />
               </folding>
@@ -130,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/pocs.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="27" column="59" lean-forward="false" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+              <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
               <folding>
                 <element signature="e#154#172#0" expanded="true" />
               </folding>
@@ -141,8 +83,8 @@
       <file leaf-file-name="image_quality_assessment.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/image_quality_assessment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="42" column="56" lean-forward="false" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
+            <state relative-caret-position="425">
+              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
               <folding>
                 <element signature="e#175#193#0" expanded="true" />
               </folding>
@@ -153,16 +95,16 @@
       <file leaf-file-name="image_pretreatment.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/image_pretreatment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+            <state relative-caret-position="-10">
+              <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
               <folding>
-                <element signature="e#365#407#0" expanded="false" />
-                <element signature="e#497#757#0" expanded="false" />
-                <element signature="e#1266#1962#0" expanded="false" />
-                <element signature="e#2030#2198#0" expanded="false" />
-                <element signature="e#2237#3855#0" expanded="false" />
-                <element signature="e#4484#4612#0" expanded="false" />
-                <element signature="e#4683#4759#0" expanded="false" />
+                <element signature="e#365#407#0" />
+                <element signature="e#497#757#0" />
+                <element signature="e#1266#1962#0" />
+                <element signature="e#2030#2198#0" />
+                <element signature="e#2237#3855#0" />
+                <element signature="e#4484#4612#0" />
+                <element signature="e#4683#4759#0" />
               </folding>
             </state>
           </provider>
@@ -204,9 +146,9 @@
         <option value="$PROJECT_DIR$/pocs.py" />
         <option value="$PROJECT_DIR$/pocs.py" />
         <option value="$PROJECT_DIR$/iterated_back_projection.py" />
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/image_quality_assessment.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/create_images.py" />
       </list>
     </option>
@@ -217,28 +159,19 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,22 +179,18 @@
               <item name="Super-Resolution" type="b2602c69:ProjectViewProjectNode" />
               <item name="Super-Resolution" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Super-Resolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Super-Resolution" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -281,8 +210,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <module name="IBP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -293,8 +223,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="IBP" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="TARGET" value="" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
@@ -302,32 +231,31 @@
       <option name="OPTIONS" value="" />
     </configuration>
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="IBP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="IBP" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
     </configuration>
     <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="IBP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="IBP" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Super-Resolution" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -335,37 +263,18 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="IBP" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="image_quality_assessment" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Super-Resolution" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image_quality_assessment.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Super-Resolution" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -376,8 +285,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Super-Resolution" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -385,16 +293,15 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="IBP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <module name="IBP" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
@@ -441,16 +348,15 @@
       <envs />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="IBP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="IBP" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -460,80 +366,68 @@
       <option name="USE_PATTERN" value="false" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="IBP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="IBP" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <module name="IBP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="IBP" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="IBP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="IBP" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration default="true" type="tests" factoryName="py.test">
+      <module name="IBP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="IBP" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.main" />
-      <item index="1" class="java.lang.String" itemvalue="Python.image_quality_assessment" />
-    </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.image_quality_assessment" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main" />
+      <list>
+        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -561,27 +455,28 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31680775" sideWeight="0.5143061" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15665236" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="0" width="310" height="700" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31680775" sideWeight="0.48569384" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18311875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33131802" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32889965" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5143061" side_tool="true" weight="0.31680775" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48569384" visible="true" weight="0.31603774" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32889965" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3278302" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18472221" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3301887" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32889965" />
+      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="3" visible="true" weight="0.15665236" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,16 +504,15 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="86" />
+      <option name="time" value="90" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/linear.py" />
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="83" lean-forward="false" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
+          <caret line="12" column="83" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
           <folding>
             <element signature="e#155#193#0" expanded="true" />
           </folding>
@@ -628,15 +522,15 @@
     <entry file="file://$PROJECT_DIR$/image_pretreatment.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
-          <caret line="116" column="21" lean-forward="false" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
+          <caret line="116" column="21" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
           <folding>
-            <element signature="e#365#407#0" expanded="false" />
-            <element signature="e#497#757#0" expanded="false" />
-            <element signature="e#1266#1962#0" expanded="false" />
-            <element signature="e#2030#2198#0" expanded="false" />
-            <element signature="e#2237#3855#0" expanded="false" />
-            <element signature="e#4484#4612#0" expanded="false" />
-            <element signature="e#4683#4759#0" expanded="false" />
+            <element signature="e#365#407#0" />
+            <element signature="e#497#757#0" />
+            <element signature="e#1266#1962#0" />
+            <element signature="e#2030#2198#0" />
+            <element signature="e#2237#3855#0" />
+            <element signature="e#4484#4612#0" />
+            <element signature="e#4683#4759#0" />
           </folding>
         </state>
       </provider>
@@ -644,12 +538,9 @@
     <entry file="file://$PROJECT_DIR$/create_images.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
-          <caret line="39" column="53" lean-forward="false" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
+          <caret line="39" column="53" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
           <folding>
             <element signature="e#164#185#0" expanded="true" />
-            <element signature="e#1698#1806#0" expanded="false" />
-            <element signature="e#1845#1955#0" expanded="false" />
-            <element signature="e#2000#3299#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -657,14 +548,14 @@
     <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/PIL/Image.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35895">
-          <caret line="2393" column="0" lean-forward="false" selection-start-line="2393" selection-start-column="0" selection-end-line="2393" selection-end-column="0" />
+          <caret line="2393" selection-start-line="2393" selection-end-line="2393" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pocs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#154#172#0" expanded="true" />
           </folding>
@@ -673,8 +564,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iterated_back_projection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="e#175#207#0" expanded="true" />
           </folding>
@@ -684,7 +574,7 @@
     <entry file="file://$PROJECT_DIR$/iterated_back_projection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
-          <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="24" />
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="24" />
           <folding>
             <element signature="e#175#207#0" expanded="true" />
           </folding>
@@ -694,7 +584,7 @@
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="57" lean-forward="false" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
           <folding>
             <element signature="e#155#193#0" expanded="true" />
           </folding>
@@ -704,15 +594,15 @@
     <entry file="file://$PROJECT_DIR$/image_pretreatment.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
-            <element signature="e#365#407#0" expanded="false" />
-            <element signature="e#497#757#0" expanded="false" />
-            <element signature="e#1266#1962#0" expanded="false" />
-            <element signature="e#2030#2198#0" expanded="false" />
-            <element signature="e#2237#3855#0" expanded="false" />
-            <element signature="e#4484#4612#0" expanded="false" />
-            <element signature="e#4683#4759#0" expanded="false" />
+            <element signature="e#365#407#0" />
+            <element signature="e#497#757#0" />
+            <element signature="e#1266#1962#0" />
+            <element signature="e#2030#2198#0" />
+            <element signature="e#2237#3855#0" />
+            <element signature="e#4484#4612#0" />
+            <element signature="e#4683#4759#0" />
           </folding>
         </state>
       </provider>
@@ -720,14 +610,14 @@
     <entry file="file://$PROJECT_DIR$/estimation_shift.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
-          <caret line="48" column="20" lean-forward="false" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iterated_back_projection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
-          <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="24" />
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="24" />
           <folding>
             <element signature="e#175#207#0" expanded="true" />
           </folding>
@@ -737,15 +627,15 @@
     <entry file="file://$PROJECT_DIR$/image_pretreatment.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
-            <element signature="e#365#407#0" expanded="false" />
-            <element signature="e#497#757#0" expanded="false" />
-            <element signature="e#1266#1962#0" expanded="false" />
-            <element signature="e#2030#2198#0" expanded="false" />
-            <element signature="e#2237#3855#0" expanded="false" />
-            <element signature="e#4484#4612#0" expanded="false" />
-            <element signature="e#4683#4759#0" expanded="false" />
+            <element signature="e#365#407#0" />
+            <element signature="e#497#757#0" />
+            <element signature="e#1266#1962#0" />
+            <element signature="e#2030#2198#0" />
+            <element signature="e#2237#3855#0" />
+            <element signature="e#4484#4612#0" />
+            <element signature="e#4683#4759#0" />
           </folding>
         </state>
       </provider>
@@ -753,14 +643,14 @@
     <entry file="file://$PROJECT_DIR$/estimation_shift.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
-          <caret line="48" column="20" lean-forward="false" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
           <folding>
             <element signature="e#155#193#0" expanded="true" />
           </folding>
@@ -770,7 +660,7 @@
     <entry file="file://$PROJECT_DIR$/iterated_back_projection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
-          <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="24" />
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="24" />
           <folding>
             <element signature="e#175#207#0" expanded="true" />
           </folding>
@@ -779,8 +669,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="e#155#193#0" expanded="true" />
           </folding>
@@ -790,15 +679,15 @@
     <entry file="file://$PROJECT_DIR$/image_pretreatment.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
-            <element signature="e#365#407#0" expanded="false" />
-            <element signature="e#497#757#0" expanded="false" />
-            <element signature="e#1266#1962#0" expanded="false" />
-            <element signature="e#2030#2198#0" expanded="false" />
-            <element signature="e#2237#3855#0" expanded="false" />
-            <element signature="e#4484#4612#0" expanded="false" />
-            <element signature="e#4683#4759#0" expanded="false" />
+            <element signature="e#365#407#0" />
+            <element signature="e#497#757#0" />
+            <element signature="e#1266#1962#0" />
+            <element signature="e#2030#2198#0" />
+            <element signature="e#2237#3855#0" />
+            <element signature="e#4484#4612#0" />
+            <element signature="e#4683#4759#0" />
           </folding>
         </state>
       </provider>
@@ -806,14 +695,14 @@
     <entry file="file://$PROJECT_DIR$/estimation_shift.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
-          <caret line="48" column="20" lean-forward="false" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iterated_back_projection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1380">
-          <caret line="92" column="45" lean-forward="false" selection-start-line="92" selection-start-column="45" selection-end-line="92" selection-end-column="45" />
+          <caret line="92" column="45" selection-start-line="92" selection-start-column="45" selection-end-line="92" selection-end-column="45" />
           <folding>
             <element signature="e#175#207#0" expanded="true" />
           </folding>
@@ -823,7 +712,7 @@
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="e#155#193#0" expanded="true" />
           </folding>
@@ -833,30 +722,26 @@
     <entry file="file://$PROJECT_DIR$/image_pretreatment.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
-            <element signature="e#365#407#0" expanded="false" />
-            <element signature="e#497#757#0" expanded="false" />
-            <element signature="e#1266#1962#0" expanded="false" />
-            <element signature="e#2030#2198#0" expanded="false" />
-            <element signature="e#2237#3855#0" expanded="false" />
-            <element signature="e#4484#4612#0" expanded="false" />
-            <element signature="e#4683#4759#0" expanded="false" />
+            <element signature="e#365#407#0" />
+            <element signature="e#497#757#0" />
+            <element signature="e#1266#1962#0" />
+            <element signature="e#2030#2198#0" />
+            <element signature="e#2237#3855#0" />
+            <element signature="e#4484#4612#0" />
+            <element signature="e#4683#4759#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/estimation_shift.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/iterated_back_projection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
-          <caret line="85" column="18" lean-forward="false" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+          <caret line="85" column="18" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
           <folding>
             <element signature="e#175#207#0" expanded="true" />
           </folding>
@@ -866,7 +751,7 @@
     <entry file="file://$PROJECT_DIR$/iterated_back_projection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#175#207#0" expanded="true" />
           </folding>
@@ -875,8 +760,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iterated_back_projection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="e#175#207#0" expanded="true" />
           </folding>
@@ -885,8 +769,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iterated_back_projection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="e#175#207#0" expanded="true" />
           </folding>
@@ -895,8 +778,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iterated_back_projection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="e#175#207#0" expanded="true" />
           </folding>
@@ -905,8 +787,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iterated_back_projection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="e#175#207#0" expanded="true" />
           </folding>
@@ -915,8 +796,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iterated_back_projection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="e#175#207#0" expanded="true" />
           </folding>
@@ -929,7 +809,7 @@
     <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/numpy/matrixlib/defmatrix.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="255" column="0" lean-forward="false" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
+          <caret line="255" selection-start-line="255" selection-end-line="255" />
         </state>
       </provider>
     </entry>
@@ -937,7 +817,7 @@
     <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/skimage/transform/_warps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
         </state>
       </provider>
     </entry>
@@ -947,7 +827,7 @@
     <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/PIL/Image.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5629">
-          <caret line="2393" column="0" lean-forward="false" selection-start-line="2393" selection-start-column="0" selection-end-line="2393" selection-end-column="0" />
+          <caret line="2393" selection-start-line="2393" selection-end-line="2393" />
         </state>
       </provider>
     </entry>
@@ -959,65 +839,59 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/image/test/img1_1.tif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/linear.py" />
     <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/estimation_shift.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
-          <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image_pretreatment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
-          <folding>
-            <element signature="e#365#407#0" expanded="false" />
-            <element signature="e#497#757#0" expanded="false" />
-            <element signature="e#1266#1962#0" expanded="false" />
-            <element signature="e#2030#2198#0" expanded="false" />
-            <element signature="e#2237#3855#0" expanded="false" />
-            <element signature="e#4484#4612#0" expanded="false" />
-            <element signature="e#4683#4759#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image_quality_assessment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="42" column="56" lean-forward="false" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
-          <folding>
-            <element signature="e#175#193#0" expanded="true" />
-          </folding>
+          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pocs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="27" column="59" lean-forward="false" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+          <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
           <folding>
             <element signature="e#154#172#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/image_pretreatment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+          <folding>
+            <element signature="e#365#407#0" />
+            <element signature="e#497#757#0" />
+            <element signature="e#1266#1962#0" />
+            <element signature="e#2030#2198#0" />
+            <element signature="e#2237#3855#0" />
+            <element signature="e#4484#4612#0" />
+            <element signature="e#4683#4759#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_quality_assessment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+          <folding>
+            <element signature="e#175#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/iterated_back_projection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1605">
-          <caret line="107" column="38" lean-forward="false" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
+        <state relative-caret-position="493">
+          <caret line="107" column="38" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
           <folding>
             <element signature="e#175#207#0" expanded="true" />
           </folding>
@@ -1026,8 +900,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="141">
+          <caret line="40" column="70" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
           <folding>
             <element signature="e#155#193#0" expanded="true" />
           </folding>
@@ -1036,13 +910,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/create_images.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+        <state relative-caret-position="225">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding>
             <element signature="e#164#185#0" expanded="true" />
-            <element signature="e#1698#1806#0" expanded="false" />
-            <element signature="e#1845#1955#0" expanded="false" />
-            <element signature="e#2000#3299#0" expanded="false" />
           </folding>
         </state>
       </provider>
