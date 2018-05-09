@@ -19,18 +19,19 @@ def pocs(images, delta_est, factor):
     img = images[0]
     img = generateimage(img)
 
+    # 分离图像分量，仅对亮度分量进行POCS算法处理
     img1 = selectimageline(img, 0)
     cb_temp = selectimageline(img, 1)
     cr_temp = selectimageline(img, 2)
 
     # python自带三次插值
-    im_color1 = scipy.ndimage.zoom(cb_temp, factor, order=3)
-    im_color2 = scipy.ndimage.zoom(cr_temp, factor, order=3)
+    im_color1 = scipy.ndimage.zoom(cb_temp, factor, order=1)
+    im_color2 = scipy.ndimage.zoom(cr_temp, factor, order=1)
 
-    temp = zoomzero(img1, factor)
+    temp = zoomzero(img1, factor)   #将LR图像补零插值
     y = np.zeros(temp.shape)
-    coord = temp.nonzero()
-    y[coord] = temp[coord]
+    coord = temp.nonzero()     #找出非零元素的坐标
+    y[coord] = temp[coord]     #将非零元素投影到构造的初始估计HR图像处
 
     for i in range(1, len(images)):
         tempimage = generateimage(images[i])
@@ -52,6 +53,7 @@ def pocs(images, delta_est, factor):
     blur = np.matrix([[0.25, 0, 1, 0, 0.25], [0, 1, 2, 1, 0], [1, 2, 4, 2, 1], [0, 1, 2, 1, 0], [0.25, 0, 1, 0, 0.25]])
     blur = blur / sum(blur)
 
+    # 进行迭代
     while iter < max_iter:
         y = cv2.filter2D(y, -1, blur)
         for i in range(len(images) - 1, -1, -1):

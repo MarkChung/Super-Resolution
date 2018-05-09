@@ -11,15 +11,17 @@ from image_pretreatment import *
 import scipy.ndimage
 import cv2
 
+
 #################################
 # 用高分辨率图像构造序列低分辨率图像 #
 #################################
 def create_images(image, factor, imagenumber):
-
     shift = np.zeros((imagenumber, 2))
     for i in range(1, imagenumber):
         shift[i, 0] = random.uniform(0, 1)
         shift[i, 1] = random.uniform(0, 1)
+
+    # np.savetxt('/Users/chosenone/Desktop/shift.txt',shift,fmt='%lf')
 
     img = np.array(image)
     img = img * 1.0
@@ -41,7 +43,7 @@ def create_images(image, factor, imagenumber):
             return num
 
     for num in range(imagenumber):
-        emptyimage = np.zeros((height, width, 3),'uint8')
+        emptyimage = np.zeros((height, width, 3), 'uint8')
         x = int(shift[num][0])
         x1 = shift[num][0] - x
         y = int(shift[num][1])
@@ -60,9 +62,9 @@ def create_images(image, factor, imagenumber):
                 sum[2] = float(sum[2]) / factor / factor
                 emptyimage[m1, m2] = sum
         temp = Image.fromarray(emptyimage, mode='RGB')
-        temp = temp.point(lambda p: p * 3.0)    # 使图像变亮 3 倍
+        temp = temp.point(lambda p: p * 3.0)  # 使图像变亮 3 倍
 
-        temp.save('/Users/chosenone/Desktop/made/car/test' + str(num + 1) + '.tif')
+        temp.save('/Users/chosenone/Desktop/made/butterfly/img' + str(num + 1) + '.tif')
         result.append(temp)
 
-    return result
+    return result,shift
