@@ -19,12 +19,12 @@ import time
 def selectImage(imageNumber):
     list = []
     # img1 = Image.open('image/image1.tif')
-    img1 = Image.open('/Users/chosenone/Desktop/made/baby/img1.tif')
+    img1 = Image.open('/Users/chosenone/Desktop/made/yuan/img1.tif')
     list.append(img1)
 
     for i in range(1, imageNumber):
         # tempImage = Image.open('image/image'+str(i+1)+'.tif')
-        tempImage = Image.open('/Users/chosenone/Desktop/made/baby/img' + str(i + 1) + '.tif')
+        tempImage = Image.open('/Users/chosenone/Desktop/made/yuan/img' + str(i + 1) + '.tif')
         if (img1.size == tempImage.size):
             list.append(tempImage)
         else:
@@ -36,21 +36,22 @@ def selectImage(imageNumber):
 if __name__ == '__main__':
 
     start = time.clock()
-
-    # 构造LR图像
-    sourceimage = Image.open('/Users/chosenone/Desktop/made/butterfly/butterfly.bmp')
-    Images,shift = create_images(sourceimage, 2, 16)
-
-    # 进行超分辨率重构
-    # Images = selectImage(32)  # 加载已有LR图像
+    #
+    # # 构造LR图像
+    # sourceimage = Image.open('/Users/chosenone/Desktop/made/yuan/yuan.jpeg')
+    # Images,shift = create_images(sourceimage, 2, 16)
+    #
+    # # # 进行超分辨率重构
+    # Images = selectImage(16)  # 加载已有LR图像
     #
     # grayImages = []
     # for i in range(len(Images)):
     #     grayImages.append(rgb2gray(Images[i]))
     # delta_est = np.matrix(estimate_shift(grayImages, 15))
-
+    # #delta_est = shift / 2
+    #
     # # 计算运动估计的误差值
-    # # np.savetxt('/Users/chosenone/Desktop/delta.txt',delta_est,fmt='%lf')
+    # np.savetxt('/Users/chosenone/Desktop/delta.txt',delta_est,fmt='%lf')
     # # sum = 0
     # # for i in range(1,16):
     # #     sum = sum + (delta_est[i,0]-shift[i,0])/shift[i,0]+ (delta_est[i,1]-shift[i,1])/shift[i,1]
@@ -58,7 +59,7 @@ if __name__ == '__main__':
     # # sum = np.abs(sum)
     # # sum = 1 - sum
     # # print sum
-
+    #
     # # im_result = IBP(Images, delta_est, 2)
     # im_result = pocs(Images, delta_est, 2)
     # im_result.save('/Users/chosenone/Desktop/result.tif')
@@ -67,7 +68,7 @@ if __name__ == '__main__':
     # print 'Run Time: ' + str(end - start)
 
     # 评估图片质量
-    # sourceimage = Image.open('/Users/chosenone/Desktop/zoom.tif')
-    # img = Image.open('/Users/chosenone/Desktop/made/baby/baby.bmp')
-    #
-    # image_assessment(sourceimage, img)
+    sourceimage = Image.open('/Users/chosenone/Desktop/result.tif')
+    img = Image.open('/Users/chosenone/Desktop/made/yuan/yuan.jpeg')
+
+    image_assessment(sourceimage, img)

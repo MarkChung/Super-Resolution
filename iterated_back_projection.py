@@ -11,6 +11,8 @@ from numpy import *
 import numpy as np
 from PIL import Image
 import scipy.ndimage
+from image_quality_assessment import *
+from pyExcelerator import *
 
 
 #####################
@@ -18,6 +20,11 @@ import scipy.ndimage
 #####################
 def IBP(images, delta_est, factor):
     phi_est = matrix([[0], [0], [0], [0]])
+
+    # judge = Image.open('/Users/chosenone/Desktop/made/butterfly/butterfly.bmp')
+    # # 创建excel
+    # w = Workbook()  #创建一个工作簿
+    # ws = w.add_sheet('delta')   #创建一个工作表
 
     img = images[0]
     img = generateimage(img)
@@ -121,11 +128,36 @@ def IBP(images, delta_est, factor):
         delta = linalg.norm(X_prev - X) / linalg.norm(X)
         E[iter][0] = iter
         E[iter][1] = delta
+
+        # #   将delta写入excel
+        # ws.write(iter-1,0,iter)
+        # ws.write(iter-1,1,delta)
+
         if iter > 3:
             if abs(E[iter - 4, 1] - delta) < 1e-5:
                 break
         X_prev = X
         iter = iter + 1
+
+        # for i in range(256):
+        #     for j in range(256):
+        #         X[i][j] = X[i][j] * 255
+        #         im_color1[i][j] = im_color1[i][j] * 255
+        #         im_color2[i][j] = im_color2[i][j] * 255
+        #
+        # temp_temp_result = zeros((256, 256, 3), 'uint8')
+        # for i in range(256):
+        #     for j in range(256):
+        #         temp_temp_result[i][j][0] = X[i][j]
+        #         temp_temp_result[i][j][1] = im_color1[i][j]
+        #         temp_temp_result[i][j][2] = im_color2[i][j]
+        #
+        # tempresult = Image.fromarray(temp_temp_result, mode='YCbCr')
+        # tempresult = tempresult.convert('RGB')
+        # psnr,mse = getPSNR(judge,tempresult)
+        # ssim = getSSIM(judge,tempresult)
+
+    # w.save('delta.xls') #保存excel
 
     imagesize = X.shape
     height = imagesize[0]

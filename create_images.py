@@ -64,7 +64,7 @@ def create_images(image, factor, imagenumber):
         temp = Image.fromarray(emptyimage, mode='RGB')
         temp = temp.point(lambda p: p * 3.0)  # 使图像变亮 3 倍
 
-        temp.save('/Users/chosenone/Desktop/made/butterfly/img' + str(num + 1) + '.tif')
+        temp.save('/Users/chosenone/Desktop/made/yuan/img' + str(num + 1) + '.tif')
         result.append(temp)
 
     return result,shift
